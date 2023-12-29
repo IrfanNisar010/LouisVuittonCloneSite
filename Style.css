@@ -1,0 +1,234 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Jost', sans-serif; 
+}
+
+header {
+    background-color: transparent; 
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+    height: 80px;
+}
+
+.main-section {
+    height: 729px;
+    position: relative;
+    text-align: center;
+}
+
+.starting-video {
+    width: 100%;
+    display: flex;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+.Svideo-1{
+    width: 100%;
+    object-fit: cover;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+.left-header {
+    display: inline-block;
+    justify-content: right;
+    display: flex;
+    margin-left: 24px;
+}
+.logo-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 800px;
+}
+
+.logo {
+    font-size: 30px;
+    color: #ffffff;
+    font-weight: 500;
+    letter-spacing: 1.3px;
+    display: inline-block;
+    margin: 0;
+    display: flex;
+    
+}
+span.material-symbols-outlined{
+    color: #eee;
+    margin-left: 15px;
+    justify-content: center;
+    line-height: 1.4;
+    font-size: 25;
+}
+.search {
+    color: #eee;
+    text-decoration: none;
+    padding: 7px 14px;
+    font-size: 14px;
+    font-weight: 300;
+    justify-content: center;
+}
+.menu {
+    color: #eee;
+    text-decoration: none;
+    padding: 7px 14px;
+    font-size: 14px;
+    font-weight: 200;
+    vertical-align: top;
+}
+.right-header {
+    display: inline-block;
+    justify-content: right;
+    margin-right: 40px;
+    display: flex;
+}
+.callus {
+    text-decoration: none;
+    color: #eee;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 200;
+    width: 50;
+}
+.Wishlist {
+    text-decoration: none;
+    color: #eee;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 200;
+    width: 50;
+    
+}
+.MyLV {
+    text-decoration: none;
+    color: #eee;
+    padding: 7px 15px;
+    font-size: 14px;
+    font-weight: 200;
+    width: 50;
+}
+.body-h2 {
+    text-align: center;
+    display: inline-block;
+    position: fixed;
+}
+.Header-text {
+    font-weight: 400;
+    position: absolute;
+}
+.video-container {
+    width: 100%;
+    height: 729px; /* Set the height to match the starting-video div */
+    display: flex;
+    object-fit: cover;
+    position: relative; 
+    z-index: 1;
+}
+
+.Svideo-1 {
+    width: 100%;
+    height: 100%; 
+    object-fit: cover;
+}
+
+div.first-head2 {
+    display: grid;
+    grid-template-rows: 80px 50px;
+    justify-content: center;
+    z-index: 1000;
+    position: absolute;
+    bottom : 0;
+    left: 0;
+    box-sizing: border-box;
+    color: #fff;
+    margin-left: 450px; 
+    margin-bottom: 40px;
+}
+
+.main-h2 {
+    font-weight: 400;
+    flex-direction: column;
+    font-size: 1.8rem;
+    letter-spacing: .025rem;
+    line-height: 2.5rem;
+    color: #fff;
+}
+
+button.discover-button {
+    width: 300px;
+    height: 50px;
+    border: solid #eee;
+    border-radius: 30px;
+    background: transparent;
+    color: #eee; 
+    margin-left: 106px;
+}
+.discover-button:hover {
+    
+    border: solid #eee;
+}
+.womenbag-div {
+    display: inline-block;
+}
+.womens-bag {
+    display: inline-block;
+    width: 427px;
+    margin-bottom: 0;
+    margin-right: 0;
+    height: 426px;
+}
+.collections-main {
+    margin: 50px;
+    display: inline-block;
+    margin-right: 17px;
+}
+.women-bag {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+}
+.women-bag-p {
+    width: 427;
+    display: grid;
+    grid-template-columns: 427px;
+}
+.explore-tag {
+    color: black;
+    font-weight: 300;
+    font-size: 14;
+}
+.image-2 {
+    margin: 0;
+    display: inline-block;
+}
+.sneakers-div {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+}
+.image-3 {
+    margin: 15;
+    display: inline-block;
+}
+.menbag-div {
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 300;
+}
+.cruise-image {
+    width: 100%;
+}
