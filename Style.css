@@ -17,8 +17,8 @@ header {
 }
 header.scrolled {
     background-color: white;
-    color: black; /* Adjust text color on scroll */
-    transition: background-color 0.3s ease, color 0.3s ease; /* Added color transition */
+    color: black; 
+    transition: background-color 0.3s ease, color 0.3s ease; 
 }
 header:hover {
     background-color: white;
@@ -28,7 +28,7 @@ header:hover p, header:hover a , header:hover span {
     color: black;
 }
 .main-section {
-    height: 729px;
+    height: 720px;
     position: relative;
     text-align: center;
 }
@@ -194,6 +194,7 @@ button.discover-button {
 }
 .womenbag-div {
     display: inline-block;
+    display: flex;
 }
 .womens-bag {
     display: inline-block;
@@ -203,7 +204,8 @@ button.discover-button {
     height: 426px;
 }
 .collections-main {
-    margin: 50px;
+    margin: 35px;
+    margin-left: 5px;
     display: inline-block;
     margin-right: 17px;
 }
@@ -249,7 +251,7 @@ button.discover-button {
 .second-video-div {
     width: 100%;
     position: relative;
-    top: 760px;
+    top: 756px;
     bottom: 0; 
 }
 
