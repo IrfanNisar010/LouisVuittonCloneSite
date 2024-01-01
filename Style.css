@@ -5,20 +5,19 @@ body {
 }
 
 header {
-    background-color: transparent; 
+    background-color: transparent;
     position: fixed;
     width: 100%;
+    left: 0;
+    top: 0;
+    right: 0;
     z-index: 1000;
     transition: background-color 0.3s ease;
     display: flex;
-    justify-content: space-between; 
+    justify-content: space-between;
     align-items: center;
     height: 80px;
-}
-header.scrolled {
-    background-color: white;
-    color: black; 
-    transition: background-color 0.3s ease, color 0.3s ease; 
+    flex-shrink: 0;
 }
 header:hover {
     background-color: white;
@@ -28,7 +27,7 @@ header:hover p, header:hover a , header:hover span {
     color: black;
 }
 .main-section {
-    height: 720px;
+    height: 717px;
     position: relative;
     text-align: center;
 }
@@ -55,7 +54,6 @@ header:hover p, header:hover a , header:hover span {
     height: 80px;
 }
 .left-header {
-    display: inline-block;
     justify-content: right;
     display: flex;
     margin-left: 24px;
@@ -158,16 +156,17 @@ span.material-symbols-outlined{
 
 div.first-head2 {
     display: grid;
-    grid-template-rows: 80px 50px;
+    grid-template-rows: 80px auto; 
     justify-content: center;
     z-index: 1000;
     position: absolute;
-    bottom : 0;
+    bottom: 0;
     left: 0;
     box-sizing: border-box;
     color: #fff;
-    margin-left: 450px; 
-    margin-bottom: 40px;
+    margin-left: 0; 
+    margin-bottom: 38px;
+    width: 100%; 
 }
 
 .main-h2 {
@@ -180,13 +179,14 @@ div.first-head2 {
 }
 
 button.discover-button {
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 48px;
     border: solid #eee;
     border-radius: 30px;
     background: transparent;
     color: #eee; 
     margin-left: 106px;
+    font-weight: 400;
 }
 .discover-button:hover {
     
@@ -195,14 +195,15 @@ button.discover-button {
 .womenbag-div {
     display: inline-block;
     display: flex;
+    flex-shrink: 0;
 }
 .womens-bag {
-    display: inline-block;
     width: 427px;
     margin-bottom: 0;
     margin-right: 0;
     height: 426px;
 }
+
 .collections-main {
     margin: 35px;
     margin-left: 5px;
@@ -210,9 +211,7 @@ button.discover-button {
     margin-right: 17px;
 }
 .women-bag {
-    display: inline-block;
     font-size: 18px;
-    justify-content: start;
     font-weight:bold 300;
     display: inline-flex;
 }
@@ -264,107 +263,226 @@ button.discover-button {
 }
 div.second-head2 {
     display: grid;
-    grid-template-rows: 80px 50px;
+    grid-template-rows: 80px auto; 
     justify-content: center;
     z-index: 1000;
     position: absolute;
-    bottom : 0;
+    bottom: 0;
     left: 0;
     box-sizing: border-box;
     color: #fff;
-    margin-left: 500px; 
-    margin-bottom: 80px;
+    margin-left: 0; 
+    margin-bottom: 90px;
+    width: 100%; 
 }
 .Second-h2 {
     font-weight: 400;
     flex-direction: column;
     font-size: 1.8rem;
     letter-spacing: .025rem;
-    line-height: 2.5rem;
+    line-height: 5.0rem;
     color: #fff;
-    margin-left: 80px;
-    
+    margin:0;
 }
 button.collection-button {
     width: 250px;
-    height: 50px;
+    height: 48px;
     border: solid #eee;
     border-radius: 30px;
     background: transparent;
-    color: #eee; 
-    margin-left: 90px;
+    color: #eee;
+    margin: auto; 
+    font-weight: 400;
 }
 .third-img {
     width: 100%;
-    top:758px;
+    top: 750px;
     position: relative;
+    margin-bottom: 0; 
 }
 .image-4 {
     width: 100%;
 }
 div.Spring-summer-div {
     display: grid;
-    grid-template-rows: 80px 50px;
+    grid-template-rows: 80px auto; 
     justify-content: center;
     z-index: 1000;
     position: absolute;
-    bottom : 0;
+    bottom: 0;
     left: 0;
     box-sizing: border-box;
     color: #fff;
-    margin-left: 450px; 
-    margin-bottom: 40px;
+    margin-left: 0; 
+    margin-bottom: 50px;
+    width: 100%; 
 }
 .Spring-h4 {
     font-weight: 400;
     flex-direction: column;
     font-size: 1.8rem;
     letter-spacing: .025rem;
-    line-height: 2.5rem;
+    line-height: 5.0rem;
     color: #fff;
+    margin:0;
 }
 button.collection-button2 {
-    width: 300px;
-    height: 50px;
+    width: 250px;
+    height: 48px;
     border: solid #eee;
     border-radius: 30px;
     background: transparent;
-    color: #eee; 
-    margin-left: 115px;
+    color: #eee;
+    margin: auto; 
+    font-weight: 400;
 }
-div.Holiday-season-head2 {
+div.Holiday-season-head2{
     display: grid;
-    grid-template-rows: 80px 50px;
+    grid-template-rows: 80px auto; 
     justify-content: center;
     z-index: 1000;
     position: absolute;
-    bottom : 0;
+    bottom: 0;
     left: 0;
     box-sizing: border-box;
     color: #fff;
-    margin-left: 500px; 
-    margin-bottom: 50px;
+    margin-left: 0; 
+    margin-bottom: 40px;
+    width: 100%; 
 }
 .Holiday-h3 {
     font-weight: 400;
     flex-direction: column;
     font-size: 1.8rem;
     letter-spacing: .025rem;
-    line-height: 2.5rem;
+    line-height: 5.0rem;
     color: #fff;
-    margin-left: 95px;  
+    margin:0;
 }
 button.Discover-button-last {
     width: 250px;
-    height: 50px;
+    height: 48px;
     border: solid #eee;
     border-radius: 30px;
     background: transparent;
-    color: #eee; 
-    margin-left: 107px;
+    color: #eee;
+    margin: auto; 
+    font-weight: 400;
 }
-.Footer-div1 {
-    width: 100%;
+.footer-1 {
+    height: 344px;
     position: relative;
-    top: 750px;
+    z-index: 1000;
+    top: 774px;
+    width: 100%; 
+    margin-top: 20px;
+    gap: 16px;
+    display: grid;
+    grid-template-columns: 300px 300px 300px 300px;
+    max-width: 1000px; 
+    margin-left: 110px;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #eae8e4;
+    justify-content: flex-start;
+}
+
+
+.help-section1 {
+    gap: 16px;
+    padding-right: 2rem;
+    max-width: 1000px;
+    margin: 0;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: row;
+}
+
+.help-div {
+    font-size: .625rem;
+    letter-spacing: .0625rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: inherit;
+    display: flex;
+    flex-direction: row;
+}
+
+.client-div {
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+}
+
+.list-info {
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start;
+}
+
+.help-a-tag {
+    background-color: transparent;
+    color: inherit;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.li-footer {
+    border: none;
+    display: list-item;
+    margin: 0 0 1rem;
+    text-align: -webkit-match-parent;
+}
+.contact-a-tag {
+    color: black;
+    
+}
+.services-a-tag {
+    background-color: transparent;
+    color: inherit;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.about-a-tag {
+    background-color: transparent;
+    color: inherit;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.connect-a-tag {
+    background-color: transparent;
+    color: inherit;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 400;
+    text-decoration: none;
+}
+.connect-div {
+    display: block;
+    font-size: .875rem;
+    letter-spacing: .025rem;
+    line-height: 1.25rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 15px;
+}
+.last-footer {
+    background-color: aqua;
+    position: relative;
+    z-index: 1000;
+    top: 774px;
 }
