@@ -185,7 +185,6 @@ button.discover-button {
     border-radius: 30px;
     background: transparent;
     color: #eee; 
-    margin-left: 8px;
     font-weight: 400;
     backdrop-filter: blur(10px); 
 }
@@ -295,6 +294,9 @@ button.collection-button {
     font-weight: 400;
     backdrop-filter: blur(8px); 
 }
+button.collection-button:hover {
+    border-width: 2px;
+}
 .third-img {
     width: 100%;
     top: 750px;
@@ -371,6 +373,9 @@ button.Discover-button-last {
     font-weight: 400;
     backdrop-filter: blur(8px); 
 }
+button.Discover-button-last:hover {
+    border-width: 2px;
+}
 .footer-1 {
     height: 344px;
     position: relative;
@@ -383,7 +388,7 @@ button.Discover-button-last {
     grid-template-columns: 300px 300px 300px 300px;
     max-width: 1000px; 
     margin-left: 110px;
-    border-bottom-width: 2px;
+    border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #eae8e4;
     justify-content: flex-start;
@@ -417,6 +422,7 @@ button.Discover-button-last {
     line-height: 1.25rem;
     font-weight: 400;
     text-align: left;
+    padding-bottom: 10px;
 }
 
 .list-info {
@@ -483,8 +489,111 @@ button.Discover-button-last {
     margin-bottom: 15px;
 }
 .last-footer {
-    background-color: aqua;
-    position: relative;
-    z-index: 1000;
-    top: 774px;
+    max-width: 100%;
+    margin: 0 ;
+    height: 350px;
+    justify-content: space-between;
+    position: absolute;
+    display: flex;
+    left: 0;
+    right: 0;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    top: 344px;
+}
+.details-location {
+    position: absolute;
+    max-width: 100%;
+    height: 50px;
+    flex-direction: row-reverse;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+}
+.india-svg {
+    width: 17px;
+    height: 25px;
+    vertical-align: top;
+}
+.india-text{
+    display: flex;
+    justify-content: flex-start;
+    color: inherit;
+    font-family: inherit;
+    box-shadow: 0 2px 0 -1px #19110b;
+    cursor: pointer;
+}
+.footer-legal-list {
+    margin: 0;
+    list-style: none;
+    right: 0.5px;
+    display: flex;
+    justify-content: end;
+}
+.sitemap-privacy-list {
+    padding: 16px;
+}
+.legal-a-tag {
+    text-decoration: none;
+    color: black;
+    padding-left: 20px;
+    color: inherit;
+    font-family: inherit;
+    font-weight: 300;
+}
+.lv-section-additionalfeature {
+    padding-left: 0;
+    padding-top: 35px;
+    display: grid;
+    grid-template-columns: 550px 1fr;
+    text-align: left;
+}
+.additional-feature-list {
+    margin: 0;
+    padding: 0;
+    background-color: transparent;
+    color: inherit;
+    letter-spacing: .025rem;
+    line-height: 1rem;
+    font-weight: 300;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-decoration: none;
+    font-size: .75rem;
+}
+.manufacture-info {
+    font-size: .65rem;
+    font-weight: 500;
+    padding: 20px;
+    padding-left: 0;
+    margin: 0;
+}
+.lv-svg-footer {
+    position: absolute;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    bottom: 0;
+}
+.location-list {
+    padding-left: 0;
+    display: inline-block;
+    list-style: none;
+    text-align: left;
+}
+.footer-location-ul {
+    flex-direction: row;
+    top:0;
+    padding: 0;
+}
+.lv-logo-div {
+    position: absolute;
+    max-width: 100%;
+    padding: 1.625rem 0;
+    margin: auto;
+    display: block;
 }
