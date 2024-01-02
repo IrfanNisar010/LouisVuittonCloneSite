@@ -179,18 +179,18 @@ div.first-head2 {
 }
 
 button.discover-button {
-    width: 250px;
+    width: 235px;
     height: 48px;
     border: solid #eee;
     border-radius: 30px;
     background: transparent;
     color: #eee; 
-    margin-left: 106px;
+    margin-left: 8px;
     font-weight: 400;
+    backdrop-filter: blur(10px); 
 }
-.discover-button:hover {
-    
-    border: solid #eee;
+button.discover-button:hover {
+    border-width: 2px;
 }
 .womenbag-div {
     display: inline-block;
@@ -293,6 +293,7 @@ button.collection-button {
     color: #eee;
     margin: auto; 
     font-weight: 400;
+    backdrop-filter: blur(8px); 
 }
 .third-img {
     width: 100%;
@@ -368,6 +369,7 @@ button.Discover-button-last {
     color: #eee;
     margin: auto; 
     font-weight: 400;
+    backdrop-filter: blur(8px); 
 }
 .footer-1 {
     height: 344px;
