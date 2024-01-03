@@ -130,11 +130,7 @@ span.material-symbols-outlined{
     font-weight: 200;
     width: 50;
 }
-.body-h2 {
-    text-align: center;
-    display: inline-block;
-    position: fixed;
-}
+
 .Header-text {
     font-weight: 400;
     position: absolute;
